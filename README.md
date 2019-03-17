@@ -21,26 +21,25 @@ When the run parameters are set up, the controller presses the "START" button to
 
 This panel is intended for display on a second monitor (thus, it may not appear correctly when run on a single monitor), in front of which is the test subject. There are two variants. After the subject presses a green button to indicate readiness, the speech task window displays a prompt for the short phrase (e.g. "Buy Bobby a Poppy") that the subject then speaks. The utterance is recorded via a microphone, automatically shutting off when the speech energy gets low enough.  The window for the mouse motion task, shown below, displays a horizontally or vertically oriented sinusoid. During this task, the subject uses the mouse to press the yellow square on the left (or top) then moves the cursor to follow the sinewave.
 
-The timing information for each trial of the run is displayed in the control window's "Results Pane" for the experimenter to view (see top figure). When the chosen number of trials is completed, control of the program goes back to this window. The run can be terminated at any time by pressing the STOP button, or by clicking on the top right "X" of the subject tracking window. (Currently, early termination does not end the program smoothly.)
-
-Data for each run is automatically saved in the workspace variable 'resultStruct', and the set up for the run is saved in the variable 'runInfo'. The data is also saved in MATLAT (.mat) and Excel (.xls) format using a naming convention based on the subject id and run number.
-
 ![TrackSubject.fig](./screenshots/manualtask_window.png)
 
+The timing information for each trial of the run is displayed in the control window's "Results Pane" for the experimenter to view (see top figure). When the chosen number of trials is completed, control of the program goes back to this window. The run can be terminated at any time by pressing the STOP button, or by clicking on the top right "X" of the subject tracking window. (Currently, early termination does not end the program smoothly.)
+
+Data for each run is automatically saved in the workspace variable 'resultStruct', and the set-up parameters for the run are saved in the variable 'runInfo'. The data is also saved in MATLAT (.mat) and Excel (.xls) format using a naming convention based on the subject id and run number.
 
 ### File descriptions
 
-TrackControl.m, TrackControl.fig:
+TrackControl.m, TrackControl.fig: Main GUI program, used to launch TrackSpeech and TrackSubject
 
-TrackSpeech.m, TrackSpeech.fig:
+TrackSpeech.m, TrackSpeech.fig: Subject GUI window for the speech task
 
-TrackSubject.m, TrackSubject.fig:
+TrackSubject.m, TrackSubject.fig: Subject GUI window for the mouse-motion task
 
-test_findendpts:
+TrackControl_PlotFeedback.m: Generates plot of actual and target times of the subject's responses, at the chosen feedback interval.
 
 sptest_2.mat, sptest_2.xls: Example data files from a long-ago run of the experiment in speech mode.
 
 
-### Copyright Information
+### Note to users
 
 This program was written by Steven Bierer at the University of Washington in 2011. Please contact him at neurolaunch@gmail.com if you intend to use the software, modified or not.
