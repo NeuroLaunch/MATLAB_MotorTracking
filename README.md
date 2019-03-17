@@ -23,6 +23,8 @@ Designed for two monitors, so may not look correct on yours!
 
 ![TrackSubject.fig](./screenshots/manualtask_window.png)
 
+<img src="./screenshots/manualtask_window.png" alt="TrackSubject.fig" style="width:200px;"/>
+
 
 ### File descriptions
 
