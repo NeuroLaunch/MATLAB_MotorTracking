@@ -1,6 +1,6 @@
-# Speech and Motor Timing Experiment
+# Speech and Motor Timing Assessment
 
-This is a graphical-user interface, written in MATLAB, to measure the timing accuracy of two different motor tasks on the same pool of subjects: hand motion and the spoken utterance of a short English phrase. Both normal and Parkinson's disease subjects participated, with the objective of examining the degree of correlation for the two types of tasks. Testing was conducted at the University of Washington, with funding provided by the National Institute on Deafness and Other Communication Disorders (NIH-NIDCD) and a University of
+This is a MATLAB graphical-user interface written for a study to measure the timing accuracy of two different motor tasks: fine hand motion and speech production. Both normal and Parkinson's disease subjects participated in the study, with the objective of examining the degree of correlation for the two types of tasks. Testing was conducted at the University of Washington, with funding provided by the National Institute on Deafness and Other Communication Disorders (NIH-NIDCD) and a University of
 Washington Royalty Research Fund (P.I>: K. Spencer).
 
 ## Overview of software
@@ -26,3 +26,7 @@ Designed for two monitors, so may not look correct on yours!
 
 ### File descriptions
 
+
+### Copyright Information
+
+This program was written by Steven Bierer at the University of Washington in 2011. Please contact him at neurolaunch@gmail.com if you intend to use the software, modified or not.
