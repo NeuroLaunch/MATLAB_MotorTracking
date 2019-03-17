@@ -21,12 +21,24 @@ When the run parameters are set up, the controller presses the "START" button to
 
 This panel is intended for display on a second monitor (thus, it may not appear correctly when run on a single monitor), in front of which is the test subject. There are two variants. After the subject presses a green button to indicate readiness, the speech task window displays a prompt for the short phrase (e.g. "Buy Bobby a Poppy") that the subject then speaks. The utterance is recorded via a microphone, automatically shutting off when the speech energy gets low enough.  The window for the mouse motion task, shown below, displays a horizontally or vertically oriented sinusoid. During this task, the subject uses the mouse to press the yellow square on the left (or top) then moves the cursor to follow the sinewave.
 
-The timing information for each trial of the run is displayed in the control window's "Results Pane" for the experimenter to view. When the chosen number of trials is completed, control of the program goes back to this window. The run can be terminated at any time by pressing the STOP button, or by clicking on the top right "X" of the subject tracking window. (Currently, early termination does not end the program smoothly.)
+The timing information for each trial of the run is displayed in the control window's "Results Pane" for the experimenter to view (see top figure). When the chosen number of trials is completed, control of the program goes back to this window. The run can be terminated at any time by pressing the STOP button, or by clicking on the top right "X" of the subject tracking window. (Currently, early termination does not end the program smoothly.)
+
+Data for each run is automatically saved in the workspace variable 'resultStruct', and the set up for the run is saved in the variable 'runInfo'. The data is also saved in MATLAT (.mat) and Excel (.xls) format using a naming convention based on the subject id and run number.
 
 ![TrackSubject.fig](./screenshots/manualtask_window.png)
 
 
 ### File descriptions
+
+TrackControl.m, TrackControl.fig:
+
+TrackSpeech.m, TrackSpeech.fig:
+
+TrackSubject.m, TrackSubject.fig:
+
+test_findendpts:
+
+sptest_2.mat, sptest_2.xls: Example data files from a long-ago run of the experiment in speech mode.
 
 
 ### Copyright Information
