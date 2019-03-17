@@ -5,7 +5,7 @@ Washington Royalty Research Fund (P.I>: K. Spencer).
 
 ## Overview of software
 
-The GUI was written in MATLAB, with support from the _data acquisition toolbox_.  It provides an interface for the test subject as well as the person running the experiment (i.e. the "controller").
+The GUI was written in MATLAB, with support from the _data acquisition toolbox_.  It provides an interface for the test subject as well as the person running the experiment (i.e. the "controller"). Besides the DAQ toolbox, the computer should also have a supported audio card and microphone placed in front of the test subject. It is also recommended that the test subject has his/her own mouse, separate from the controller's.
 
 ### The Control Window
 
@@ -15,15 +15,15 @@ From the MATLAB command console, the first step is to launch the main control pa
 
 From this panel, the exerimenter enters the subject ID and description of the run, usually a unique number ordered consecutively across test sessions. The controller then chooses the type of experiment ("Mouse Motion" or "Speech") and the related task target (Horizontal or Vertical sinewaves for the mouse task, and one of two short sentences for the speech task) from the drop-down menus. The controller should also choose the timing sequence of the run in the _Conditions_ pull-down menu. Initially, a "practice" session is first conducted to establish the natural baseline timing of the task for a particular test subject; from that baseline (which can be entered in the top-right field), the 2x and 3x timing targets are automatically calculated. If a non-practice condition is chosen, a feedback interval should also be chosen, giving the subject an indication of how close their timed motor task came to the target.
 
-When the run is setup, the controller presses the "START" button to open up the Subject Tracking Window.
+When the run parameters are set up, the controller presses the "START" button to open up a Subject Tracking Window.
 
 ### The Subject Tracking Window
 
-Designed for two monitors, so may not look correct on yours!
+This panel is intended for display on a second monitor (thus, it may not appear correctly when run on a single monitor), in front of which is the test subject. There are two variants. After the subject presses a green button to indicate readiness, the speech task window displays a prompt for the short phrase (e.g. "Buy Bobby a Poppy") that the subject then speaks. The utterance is recorded via a microphone, automatically shutting off when the speech energy gets low enough.  The window for the mouse motion task, shown below, displays a horizontally or vertically oriented sinusoid. During this task, the subject uses the mouse to press the yellow square on the left (or top) then moves the cursor to follow the sinewave.
+
+The timing information for each trial of the run is displayed in the control window's "Results Pane" for the experimenter to view. When the chosen number of trials is completed, control of the program goes back to this window. The run can be terminated at any time by pressing the STOP button, or by clicking on the top right "X" of the subject tracking window. (Currently, early termination does not end the program smoothly.)
 
 ![TrackSubject.fig](./screenshots/manualtask_window.png)
-
-<img src="./screenshots/manualtask_window.png" alt="TrackSubject.fig" style="width:200px;"/>
 
 
 ### File descriptions
