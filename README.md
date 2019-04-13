@@ -1,7 +1,7 @@
 # Speech and Motor Timing Assessment
 
 This is a MATLAB graphical-user interface written for a study to measure the timing accuracy of two different motor tasks: fine hand motion and speech production. Both normal and Parkinson's disease subjects participated in the study, with the objective of examining the degree of correlation for the two types of tasks. Testing was conducted at the University of Washington, with funding provided by the National Institute on Deafness and Other Communication Disorders (NIH-NIDCD) and a University of
-Washington Royalty Research Fund (P.I>: K. Spencer).
+Washington Royalty Research Fund (P.I.: K. Spencer).
 
 ## Overview of software
 
@@ -40,6 +40,8 @@ TrackControl_PlotFeedback.m: Generates plot of actual and target times of the su
 sptest_2.mat, sptest_2.xls: Example data files from a long-ago run of the experiment in speech mode.
 
 
-### Note to users
+## Permission for use
 
 This program was written by Steven Bierer at the University of Washington in 2011. Please contact him at neurolaunch@gmail.com if you intend to use the software, modified or not.
+
+Presented data or analysis made using the software should reference the following journal article: Weir-Mayta P, Spencer KA, Bierer SM, Daliri A, et al.  Investigation of Feedback Schedules on Speech Motor Learning in Older Adults. International Journal of Aging Research. 2019. (https://escipub.com/ijoar-2019-03-2006/)
