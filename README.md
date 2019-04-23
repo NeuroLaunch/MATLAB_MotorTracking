@@ -44,4 +44,4 @@ sptest_2.mat, sptest_2.xls: Example data files from a long-ago run of the experi
 
 This program was written by Steven Bierer at the University of Washington in 2011. Please contact him at neurolaunch@gmail.com if you intend to use the software, modified or not.
 
-Data, published or presented, that was made using this software should reference the following journal article: Weir-Mayta P, Spencer KA, Bierer SM, Daliri A, et al.  Investigation of Feedback Schedules on Speech Motor Learning in Older Adults. International Journal of Aging Research. 2019. (https://escipub.com/ijoar-2019-03-2006/)
+Data, published or presented, that was made using this software should reference the following journal article: Weir-Mayta P, Spencer KA, Bierer SM, Daliri A, et al.  Investigation of Feedback Schedules on Speech Motor Learning in Older Adults. _International Journal of Aging Research_. 2019. (https://escipub.com/ijoar-2019-03-2006/)
