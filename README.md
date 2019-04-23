@@ -5,7 +5,7 @@ Washington Royalty Research Fund (P.I.: K. Spencer).
 
 ## Overview of software
 
-The GUI was written in MATLAB, with support from the _data acquisition toolbox_.  It provides an interface for the test subject as well as the person running the experiment (i.e. the "controller"). Besides the DAQ toolbox, the computer should also have a supported audio card and microphone placed in front of the test subject. It is also recommended that the test subject has his/her own mouse, separate from the controller's.
+The GUI was written in MATLAB, with the _Data Acquisition toolbox_ providing real-time audio functionality.  It displays an interactive window for the test subject as well as the person running the experiment (i.e. the "controller"). Besides the DAQ toolbox, the computer should also have a supported audio card and microphone placed in front of the test subject. It is also recommended that a second monitor and mouse be available for the test subject.
 
 ### The Control Window
 
@@ -44,4 +44,4 @@ sptest_2.mat, sptest_2.xls: Example data files from a long-ago run of the experi
 
 This program was written by Steven Bierer at the University of Washington in 2011. Please contact him at neurolaunch@gmail.com if you intend to use the software, modified or not.
 
-Presented data or analysis made using the software should reference the following journal article: Weir-Mayta P, Spencer KA, Bierer SM, Daliri A, et al.  Investigation of Feedback Schedules on Speech Motor Learning in Older Adults. International Journal of Aging Research. 2019. (https://escipub.com/ijoar-2019-03-2006/)
+Data, published or presented, that was made using this software should reference the following journal article: Weir-Mayta P, Spencer KA, Bierer SM, Daliri A, et al.  Investigation of Feedback Schedules on Speech Motor Learning in Older Adults. International Journal of Aging Research. 2019. (https://escipub.com/ijoar-2019-03-2006/)
