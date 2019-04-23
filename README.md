@@ -3,7 +3,7 @@
 This is a MATLAB graphical-user interface created for a study to measure the timing accuracy of two different motor tasks: fine hand motion and speech production. Both normal and Parkinson's disease subjects participated in the study, with the objective of examining the degree of correlation for the two types of tasks. Testing was conducted at the University of Washington, with funding provided by the National Institute on Deafness and Other Communication Disorders (NIH-NIDCD) and a University of
 Washington Royalty Research Fund (P.I.: K. Spencer).
 
-## Overview of software
+## OVERVIEW
 
 The GUI was written in MATLAB, with the _Data Acquisition toolbox_ providing real-time audio functionality.  It displays an interactive window for the test subject as well as the person running the experiment (i.e. the "controller"). Besides the DAQ toolbox, the computer should also have a supported audio card and microphone placed in front of the test subject. It is also recommended that a second monitor and mouse be available for the test subject.
 
@@ -27,7 +27,7 @@ The timing information for each trial of the run is displayed in the control win
 
 Data for each run is automatically saved in the workspace variable 'resultStruct', and the set-up parameters for the run are saved in the variable 'runInfo'. The data is also saved in MATLAT (.mat) and Excel (.xls) format using a naming convention based on the subject id and run number.
 
-### File descriptions
+## FILE DESCRIPTIONS
 
 TrackControl.m, TrackControl.fig: Main GUI program, used to launch TrackSpeech and TrackSubject
 
@@ -40,8 +40,8 @@ TrackControl_PlotFeedback.m: Generates plot of actual and target times of the su
 sptest_2.mat, sptest_2.xls: Example data files from a long-ago run of the experiment in speech mode.
 
 
-## Permission for use
+## USAGE INFORMATION
 
 This program was written by Steven Bierer at the University of Washington in 2011. Please contact him at neurolaunch@gmail.com if you intend to use the software, modified or not.
 
-Data, published or presented, that was made using this software should reference the following journal article: Weir-Mayta P, Spencer KA, Bierer SM, Daliri A, et al.  Investigation of Feedback Schedules on Speech Motor Learning in Older Adults. _International Journal of Aging Research_. 2019. (https://escipub.com/ijoar-2019-03-2006/)
+Data, published or presented, made with this software should reference the following journal article: Weir-Mayta P, Spencer KA, Bierer SM, Daliri A, et al.  Investigation of Feedback Schedules on Speech Motor Learning in Older Adults. _International Journal of Aging Research_. 2019. (https://escipub.com/ijoar-2019-03-2006/)
